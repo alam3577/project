@@ -1,12 +1,21 @@
 # Project setup
 
-Node Version:
+Node Version: v16.13.2
 
 ## Start app
 
-1. yarn
-2.
+# move to project folder
+
+1.cd project
+2.npm install
 
 ## Start json server
 
 npm run server
+
+# Open new Terminal to start Client side
+
+# move to project folder
+
+1.cd project
+2.npm start

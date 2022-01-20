@@ -7,7 +7,7 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
 }
 
 .div__container {
@@ -134,4 +134,41 @@ body {
 
 .ch {
   margin-bottom: 21px;
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    background-color: lightgreen;
+  }
+  .div__container {
+    width: 100vw;
+    justify-content: space-between;
+  }
+  .log {
+    width: fit-content;
+  }
+  .price {
+    font-size: 12px;
+  }
+  .container {
+    width: 100vw;
+  }
+  .log {
+    font-size: 17px;
+    margin-left: 11px;
+  }
+  .price__container {
+    font-size: x-small;
+  }
+  .data div p,
+  .val__conatiner div p,
+  .unrealized__pl__conatiner div p,
+  .shares__container p {
+    font-size: x-small;
+  }
+  .buttons button {
+    font-size: x-small;
+    width: 38px;
+    height: 27px;
+  }
 }
