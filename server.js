@@ -9,7 +9,7 @@ const port = process.env.PORT || 8000;
 server.use(middlewares);
 server.use(
   jsonServer.rewriter({
-    "/*": "/$1",
+    "/api/*": "/$1",
   }),
 );
 server.use(router);
