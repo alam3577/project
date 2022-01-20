@@ -1,13 +1,137 @@
-body {
+* {
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+}
+.main__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: nowrap;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.div__container {
+  margin-top: 22px;
+  display: flex;
+  border: 0px solid blue;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 1px 3px 6px 0px #ab9898;
+  background-color: white;
+}
+
+.div__container div {
+  width: fit-content;
+}
+
+.data {
+  width: 1px;
+}
+
+.price {
+  font-size: 34px;
+  color: #08db83;
+  font-family: cursive;
+}
+.buttons {
+  display: flex;
+  flex-direction: column;
+  margin-right: 12px;
+  width: 110px;
+}
+
+.buttons button {
+  width: 84px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  height: 40px;
+  border: 2px solid orange;
+  background-color: white;
+  font-weight: 600;
+  color: orange;
+}
+
+.unrealized__pl__conatiner {
+  display: flex;
+  flex-direction: column;
+}
+
+.unrealized__pl__conatiner div {
+  width: 13vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: -9px;
+}
+
+.data div {
+  width: 10vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.val__conatiner div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 11vw;
+  margin-bottom: -9px;
+}
+
+.pl {
+  font-weight: 700;
+}
+
+.pl_pr {
+  font-weight: 700;
+}
+
+.container {
+  width: 80vw;
+}
+
+.chart__content {
+  margin: 25px 8px 0px 16px;
+}
+
+.chat__cont {
+  border: 0px solid blue;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 1px 3px 6px 0px #ab9898;
+  padding: 3px;
+  margin-top: 20px;
+  background-color: white;
+}
+
+body {
+  background-color: #f4f4fb;
+}
+
+.data div p,
+.price__container div p {
+  margin-bottom: 4px;
+}
+
+.price__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.chart {
+  margin-right: 14px;
+}
+
+.log {
+  font-size: 32px;
+  margin-left: 31px;
+}
+
+.ch {
+  margin-bottom: 21px;
 }

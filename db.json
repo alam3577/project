@@ -1,0 +1,70 @@
+{
+  "data": [
+    {
+      "scrip": "ADDR",
+      "qty": 430,
+      "price": 50.3,
+      "avgCost": 41.75,
+      "invAmount": 17952.07,
+      "percentageOfPortfolioVal": 22.06,
+      "unreleasedPL": 3676.93,
+      "returnPercentage": 20.48,
+      "type":"MF"
+    },
+    {
+      "scrip": "MFEM",
+      "qty": 210,
+      "price": 23.20,
+      "avgCost": 22.50,
+      "invAmount": 4725.84,
+      "percentageOfPortfolioVal": 5.81,
+      "unreleasedPL": 146.16,
+      "returnPercentage": 3.09,
+      "type":"MF"
+    },
+    {
+      "scrip": "JPEM",
+      "qty": 328,
+      "price": 52.50,
+      "avgCost": 56.70,
+      "invAmount": 18597.60,
+      "percentageOfPortfolioVal": 22.86,
+      "unreleasedPL": -1377.60,
+      "returnPercentage": -7.41,
+      "type":"MF"
+    },
+    {
+      "scrip": "KEMQ",
+      "qty": 801,
+      "price": 20.40,
+      "avgCost": 22.24,
+      "invAmount": 17811.04,
+      "percentageOfPortfolioVal": 21.89,
+      "unreleasedPL": -1470.64,
+      "returnPercentage": -8.26,
+      "type":"MF"
+    },
+    {
+      "scrip": "KLDW",
+      "qty": 523,
+      "price": 32.90,
+      "avgCost": 26.32,
+      "invAmount": 13765.36,
+      "percentageOfPortfolioVal": 16.92,
+      "unreleasedPL": 3441.34,
+      "returnPercentage": 25.00,
+      "type":"ETF"
+    },
+    {
+        "scrip": "KOIN",
+        "qty": 335,
+        "price": 25.40,
+        "avgCost": 25.40,
+        "invAmount": 8509,
+        "percentageOfPortfolioVal": 10.46,
+        "unreleasedPL": "",
+        "returnPercentage": 0.00,
+        "type":"ETF"
+      }
+  ]
+}
