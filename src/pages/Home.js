@@ -20,7 +20,7 @@ function Home() {
             <HomeContent key={i} elem={elem} i={i} />
           ))}
         </div>
-        <div class="chart">
+        <div className="chart">
           <Chart data={data} />
         </div>
       </div>

@@ -4,7 +4,7 @@ function HomeContent({ elem, i }) {
   return (
     <div className="div__container">
       <div className="log">
-        <i class="fa fa-bars"></i>
+        <i className="fa fa-bars"></i>
       </div>
       <div className="price__container">
         <p>{elem.scrip}</p>
@@ -36,9 +36,9 @@ function HomeContent({ elem, i }) {
           <p>% of portfolio Value</p>
           <p className="pl_pr">{elem.percentageOfPortfolioVal}</p>
         </div>
-        <div class="progress mb-1">
+        <div className="progress mb-1">
           <div
-            class="progress-bar w-30 bg-success"
+            className="progress-bar w-30 bg-success"
             style={{ width: `${elem.returnPercentage}%` }}
             role="progressbar"
             aria-valuenow="0"
@@ -54,13 +54,13 @@ function HomeContent({ elem, i }) {
         </div>
         <div className="return">
           <p>% Returns </p>
-          <p class="pl_pr">${elem.returnPercentage}%</p>
+          <p className="pl_pr">${elem.returnPercentage}%</p>
         </div>
-        <div class="progress mb-1">
+        <div className="progress mb-1">
           {elem.returnPercentage &&
           String(elem.returnPercentage).slice(0, 1) !== "-" ? (
             <div
-              class="progress-bar bg-success"
+              className="progress-bar bg-success"
               role="progressbar"
               style={{ width: "15%" }}
               aria-valuenow="15"
@@ -69,7 +69,7 @@ function HomeContent({ elem, i }) {
             ></div>
           ) : (
             <div
-              class="progress-bar bg-danger"
+              className="progress-bar bg-danger"
               role="progressbar"
               style={{ width: "15%" }}
               aria-valuenow="30"
