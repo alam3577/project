@@ -1,4 +1,4 @@
-import { all, call, delay, fork, put, takeEvery } from "redux-saga/effects";
+import { call, delay, fork, put, takeEvery } from "redux-saga/effects";
 import { dataLoadingError, dataLoadingSuccess } from "../actions/dataActions";
 import { loadDataApi } from "../api";
 import { LOADING_DATA } from "../types/dataTypes";
