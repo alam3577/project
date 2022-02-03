@@ -4,18 +4,13 @@ Node Version: v16.13.2
 
 ## Start app
 
-# move to project folder
+=======
 
-1.cd project
-2.npm install
+1. cd into project directory
+2. npm install
+3. npm start
 
 ## Start json server
 
-npm run server
-
-# Open new Terminal to start Client side
-
-# move to project folder
-
-1.cd project
-2.npm start
+1. cd into project directory
+2. npm run server
